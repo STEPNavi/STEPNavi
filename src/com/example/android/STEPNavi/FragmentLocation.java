@@ -10,8 +10,10 @@ import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
+import android.widget.ListView;
 import android.widget.TextView;
 
+import com.beardedhen.androidbootstrap.BootstrapEditText;
 import com.example.android.BluetoothChat.R;
 
 import com.example.android.STEPNavi.dummy.DummyContent;
@@ -119,6 +121,13 @@ public class FragmentLocation extends Fragment implements AbsListView.OnItemClic
 			// fragment is attached to one) that an item has been selected.
 			mListener.onFragmentInteraction(DummyContent.ITEMS.get(position).id);
 		}
+
+		ListView list = (ListView)parent;
+		String selection = (String)list.getItemAtPosition(position);
+		BootstrapEditText edittext = (BootstrapEditText)getActivity().findViewById(R.id.editText1);
+		edittext.setText(selection);
+
+		getFragmentManager().beginTransaction().remove(this).commit();
 	}
 
 	/**

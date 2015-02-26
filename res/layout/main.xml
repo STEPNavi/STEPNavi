@@ -40,7 +40,7 @@
             android:layout_toLeftOf="@+id/button1"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:hint="@string/departure"/>
 
             <requestFocus />
@@ -92,7 +92,8 @@
             android:layout_height="wrap_content"
             android:src="@drawable/tag"
             android:visibility="invisible"
-            />
+			android:layout_x="5dp"
+			android:layout_y="-7dp"/>
 
         <LinearLayout
             android:id="@+id/LinearLayout"
