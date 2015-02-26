@@ -1,2 +1,10 @@
+<<<<<<< HEAD
 C:\AndroidStudioProjects\STEPNavi\build\intermediates\classes\debug
 C:\AndroidStudioProjects\STEPNavi\build\intermediates\pre-dexed\debug\classes-01f659021b7feb2afc9ddb61fc06cb0e37862a43.jar
+=======
+C:\StudioWorkSpace\STEPNavi\build\intermediates\classes\debug
+C:\StudioWorkSpace\STEPNavi\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-1a91d67e25887382ad77016d17f9756907a4b78a.jar
+C:\StudioWorkSpace\STEPNavi\build\intermediates\pre-dexed\debug\classes-9d56eaf33360de6db9e19f796e5490309951e68e.jar
+C:\StudioWorkSpace\STEPNavi\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-0c13c7afad0dae2e742950f6f5c1d554c16237e3.jar
+C:\StudioWorkSpace\STEPNavi\build\intermediates\pre-dexed\debug\classes-ac2bb8e585972e33021daebb54b77c5cb663b0fc.jar
+>>>>>>> スライドメニュー追加(暫定)
