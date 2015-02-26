@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">STEP Navi</string>
+
+    <!--  BluetoothChat -->
+    <string name="send">送信</string>
+    <string name="not_connected">未接続</string>
+    <string name="bt_not_enabled_leaving">Bluetoothが有効化されませんでした. STEP Naviを終了します.</string>
+    <string name="title_connecting">接続中...</string>
+    <string name="title_connected_to"><xliff:g id="device_name">%1$s</xliff:g>と接続しました</string>
+    <string name="title_not_connected">未接続</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">デバイスを検索中...</string>
+    <string name="select_device">接続するデバイスを選択</string>
+    <string name="none_paired">デバイスと接続されていません</string>
+    <string name="none_found">デバイスが見つかりませんでした</string>
+    <string name="title_paired_devices">ペアリング済みデバイス</string>
+    <string name="title_other_devices">他に接続可能なデバイス</string>
+    <string name="button_scan">デバイスを検索</string>
+
+    <!-- Options Menu -->
+    <string name="secure_connect">デバイスに接続(暗号化)</string>
+    <string name="insecure_connect">デバイスに接続(非暗号化)</string>
+    <string name="discoverable">Make discoverable</string>
+
+    <!--検索用-->
+    <string name="departure">出発地</string>
+    <string name="destination">到着地</string>
+    <string name="Point_Select">ルート検索</string>
+    <string name="search_root">検索</string>
+    <string name="demo">デモ</string>
+    <string name="title_navigation">ルート検索</string>
+    <string name="root_cancel">取り消し</string>
+    <string name="root_explanation">出発地と到着地を入力</string>
+
+</resources>

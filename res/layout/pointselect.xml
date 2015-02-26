@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1"
+    android:id="@+id/mainLinear">
+    <TextView android:id="@+id/title_starting_Point"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="@string/root_explanation"
+        android:background="#ff000000"
+        android:textColor="#ff3187ff"
+        android:paddingLeft="5dp"
+        android:textSize="20dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:weightSum="1">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_gravity="center"
+            android:id="@+id/StartPtEd"
+            android:hint="@string/departure"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:id="@+id/GoalPtEd"
+            android:hint="@string/destination"
+            android:inputType="text"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/search_root"
+            android:id="@+id/SearchBtn"
+            android:textColor="#ff3187ff" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/demo"
+            android:id="@+id/DemoBtn"
+            android:textColor="#ff3187ff" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/root_cancel"
+            android:id="@+id/CancelBtn"
+            android:textColor="#ff3187ff" />
+    </LinearLayout>
+
+</LinearLayout>
