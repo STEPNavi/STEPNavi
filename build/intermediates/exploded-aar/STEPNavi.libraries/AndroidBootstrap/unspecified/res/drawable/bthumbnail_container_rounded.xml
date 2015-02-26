@@ -7,4 +7,4 @@
             <corners android:radius="@dimen/bthumbnail_rounded_corner_radius"/>
         </shape></item>
 
-</selector><!-- From: file:/home/subroh0508/AndroidStudioProjects/STEPNavi/libraries/AndroidBootstrap/res/drawable/bthumbnail_container_rounded.xml -->
+</selector><!-- From: file:/C:/AndroidStudioProjects/STEPNavi/libraries/AndroidBootstrap/res/drawable/bthumbnail_container_rounded.xml -->
