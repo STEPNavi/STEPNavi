@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.Window;
 
+import com.example.android.BluetoothChat.R;
+
 public class Splash extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -13,10 +15,10 @@ public class Splash extends Activity {
         // タイトルを非表示にします。
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         // splash.xmlをViewに指定します。
-        //setContentView(R.layout.splash);
+        setContentView(R.layout.splash);
         Handler hdl = new Handler();
-        // 500ms遅延させてsplashHandlerを実行します。
-        hdl.postDelayed(new splashHandler(), 500);
+        // 2000ms遅延させてsplashHandlerを実行します。
+        hdl.postDelayed(new splashHandler(), 2000);
     }
     class splashHandler implements Runnable {
         public void run() {

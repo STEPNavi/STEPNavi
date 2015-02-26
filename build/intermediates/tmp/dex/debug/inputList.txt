@@ -1,2 +1,2 @@
-/home/subroh0508/git/STEPNavi/build/intermediates/classes/debug
-/home/subroh0508/git/STEPNavi/build/intermediates/pre-dexed/debug/classes-410eb215f771dd702813ef61a2011e2774ff3684.jar
+C:\AndroidStudioProjects\STEPNavi\build\intermediates\classes\debug
+C:\AndroidStudioProjects\STEPNavi\build\intermediates\pre-dexed\debug\classes-01f659021b7feb2afc9ddb61fc06cb0e37862a43.jar
